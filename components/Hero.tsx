@@ -83,6 +83,9 @@ export default function Hero() {
 
               <a
                 href={portfolio.resume}
+                target="_blank"
+                rel="noopener noreferrer"
+                download
                 className="flex items-center gap-2 rounded-xl border px-6 py-3 font-semibold transition hover:bg-slate-100 dark:hover:bg-slate-800"
               >
                 <Download size={18} />
